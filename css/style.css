@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	box-sizing: border-box;
+	color: white;
+}
+input[type="button"]{
+	height: 56px;
+	width: 220px;
+	background-color: #5474fd;
+	background-image: url('../img/button.png');
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-family: "Aleo";
+	text-transform: uppercase;
+	border: none;
+}
+.ak-scroll>img{
+	display: block;
+}
+.ak-main{
+	padding:2% 2%;
+}
+.ak-section:first-child{
+	height: 100vh;
+	background: url("../img/first.jpg") no-repeat center center fixed;
+	background-size: cover;	
+	position: relative;
+}
+.ak-content{
+	text-align: center;
+	padding: 15% 30%;
+	padding-bottom: 0;
+}
+.ak-section h1{
+	font-size: 48px;
+	letter-spacing: 5px;
+	color: rgb(255,255,255);
+	font-family: "Josefin Sans";
+	font-weight: bold;
+}
+.ak-section_deskr{
+	font-size: 22px;
+	letter-spacing: 7px;
+	line-height: 26px;
+	color: rgb(255,255,255);
+	font-family: "Josefin Sans";
+	margin-bottom: 23%;: 
+}
+.ak-search{
+	background: white;
+	margin-bottom: 20%;
+}
+.ak-search_form{
+	width: 100%;
+	height: 60px;
+	font-size: 0px;
+}
+.big{
+	font-size: 20px;
+	width: 75%;
+	height: 100%;
+	
+}
+.small{
+	width: 25%;
+	font-size: 20px;
+	height: 100%;
+	background-color: #5474fd;
+	border-color: white;
+	
+}
+.ak-scroll{
+	text-align: center;
+	text-decoration: none;
+	
+}
+.ak-scroll>img{
+	display: block;
+	margin: 10px auto;
+}
+.ak-navbar{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #5474fd;
+	font-size: 0px;
+}
+.ak-navbar_name{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	font-family: "Josefin Sans";
+	font-weight: bold;
+}
+.ak-navbar_links{
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 26px;
+	font-family: "Aleo";
+}
+.ak-section:nth-child(2){
+	padding: 10% 0;
+	background: url("../img/second.jpg") no-repeat center center fixed;
+	background-size: cover;	
+	font-size: 0px;
+}
+.ak-section_info{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+.ak-section_info h2{
+	font-size: 36px;
+	line-height: 26px;
+	font-family: "Aleo";
+}
+.ak-section_info p{
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	font-family: "Josefin Sans";
+}
+
+.ak-section_images{
+	display: inline-block;
+	width: 50%;
+}
+.ak-section_images img{
+	max-height: 200px;
+}
+.ak-section_images img:first-child{
+	margin-right: 10%;
+}
+.ak-section_images img:last-child{
+	margin-left: 10%;
+}
+.ak-section:nth-child(3){
+	padding: 3% 20%;
+	font-size: 0px;
+	background-color:#333333;
+
+}
+.ak-section_howItsWork{
+	display:inline-block;
+	width: 33.3%;
+	text-align: center;
+	font-size: 36px;
+	line-height: 26px;
+	color: rgb(232,232,232);
+	font-family: "Aleo";
+	text-align: center;
+}
+.ak-section_howItsWork img{
+	height: 40px;
+}
+.ak-section:nth-child(4){
+	
+}
+.ak-blok{
+	padding: 5% 0;
+}
+.ak-blok:first-child{
+	background: url("../img/pool.jpg") no-repeat center center ;
+}
+.ak-blok:last-child{
+	background: url("../img/ocean.jpg") no-repeat center center ;
+}
+.ak-bookingForm{
+	background-color: rgba(41, 37, 39, 0.7);
+	width: 30%;
+	padding:3% 3%;
+}
+.ak-blok:first-child .ak-bookingForm{
+	margin-left: 20%;
+}
+.ak-blok:last-child .ak-bookingForm{
+	margin-left: 55%;
+}
+.ak-bookingForm_country{
+	font-size: 17px;
+	letter-spacing: 2px;
+	line-height: 26px;		
+	font-family: "Josefin Sans";
+}
+.bookingForm_hotel{
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 26px;		
+	font-family: "Josefin Sans";
+}
+.ak-bookingForm_deskr{
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 26px;		
+	font-family: "Josefin Sans";
+}
+.ak-section:nth-child(5){
+	margin-top: 2%;
+	padding: 10% 0;
+	background: url("../img/men.jpg") no-repeat center center ;
+	text-align: center;	
+}
+.ak-story{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 0px;
+	background: #333333;
+}
+.ak-story_image{
+	display: inline-block;
+	width: 40%;
+}
+.ak-story_deskr{
+	display: inline-block;
+	width: 60%;
+	text-align: left;
+	padding:30px;
+}
+.ak-story_deskr h2{
+	font-size: 20px;
+	line-height: 26px;
+	font-family: "Josefin Sans";
+
+}
+.ak-story_deskr p{
+	font-size: 15px;
+	line-height: 20px;
+	font-family: "Font Awesome";
+}
+.ak-footer{
+	padding: 3% 30%;
+	background-color: #232323;
+	text-align: center;
+
+}
