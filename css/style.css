@@ -22,6 +22,16 @@ input[type="button"]{
 	text-transform: uppercase;
 	border: none;
 }
+button{
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	font-family: "Aleo";
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
 .ak-scroll>img{
 	display: block;
 }
@@ -45,6 +55,7 @@ input[type="button"]{
 	color: rgb(255,255,255);
 	font-family: "Josefin Sans";
 	font-weight: bold;
+	text-transform: uppercase;
 }
 .ak-section_deskr{
 	font-size: 22px;
@@ -95,25 +106,32 @@ input[type="button"]{
 }
 .ak-navbar_name{
 	display: inline-block;
-	width: 50%;
+	width: 47%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 16px;
 	letter-spacing: 2px;
-	line-height: 26px;
+	line-height: 44px;
 	font-family: "Josefin Sans";
 	font-weight: bold;
+	margin-right: 5%;
+	text-transform: uppercase;
 }
 .ak-navbar_links{
 	display: inline-block;
-	width: 50%;
+	width: 35%;
+	font-size: 0px;
+}
+.ak-navbar_links>a{
+	display: inline-block;
+	width: 25%;
 	text-align: left;
-	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 26px;
 	font-family: "Aleo";
+	text-transform: uppercase;
 }
 .ak-section:nth-child(2){
-	padding: 10% 0;
+	padding: 7% 0;
 	background: url("../img/second.jpg") no-repeat center center fixed;
 	background-size: cover;	
 	font-size: 0px;
@@ -121,9 +139,12 @@ input[type="button"]{
 .ak-section_info{
 	display: inline-block;
 	width: 50%;
-	text-align: center;
+	padding-left: 18%;
+	vertical-align: top;
 }
 .ak-section_info h2{
+	margin-top: 15%;
+    margin-bottom: 12%;
 	font-size: 36px;
 	line-height: 26px;
 	font-family: "Aleo";
@@ -133,23 +154,23 @@ input[type="button"]{
 	letter-spacing: 2px;
 	line-height: 26px;
 	font-family: "Josefin Sans";
+	padding-bottom: 3%;
 }
 
 .ak-section_images{
 	display: inline-block;
-	width: 50%;
+	width: 45%;
+	margin-left: 5%;
 }
 .ak-section_images img{
-	max-height: 200px;
-}
-.ak-section_images img:first-child{
-	margin-right: 10%;
+	max-height: 225px;
+	display: block;
 }
 .ak-section_images img:last-child{
-	margin-left: 10%;
+	margin-left: 17%;
 }
 .ak-section:nth-child(3){
-	padding: 3% 20%;
+	padding: 5.5% 18%;
 	font-size: 0px;
 	background-color:#333333;
 
@@ -165,54 +186,61 @@ input[type="button"]{
 	text-align: center;
 }
 .ak-section_howItsWork img{
-	height: 40px;
+	height: 58px;
 }
 .ak-section:nth-child(4){
 	
 }
 .ak-blok{
-	padding: 5% 0;
+	padding-top: 13.5%;
+	padding-bottom: 5.7%;
+	
 }
 .ak-blok:first-child{
-	background: url("../img/pool.jpg") no-repeat center center ;
+	background: url("../img/pool.jpg");
+	background-size: cover;
+
 }
 .ak-blok:last-child{
-	background: url("../img/ocean.jpg") no-repeat center center ;
+	background: url("../img/ocean.jpg");
+	background-size: cover;
 }
 .ak-bookingForm{
 	background-color: rgba(41, 37, 39, 0.7);
-	width: 30%;
-	padding:3% 3%;
+	width: 32%;
+	padding:1.5% 2%;
+	font-weight: 100;
+	padding-bottom: 3%;
 }
 .ak-blok:first-child .ak-bookingForm{
-	margin-left: 20%;
+	margin-left: 18%;
 }
 .ak-blok:last-child .ak-bookingForm{
-	margin-left: 55%;
+	margin-left: 51.5%;
 }
 .ak-bookingForm_country{
 	font-size: 17px;
-	letter-spacing: 2px;
-	line-height: 26px;		
+	line-height: 25px;		
 	font-family: "Josefin Sans";
 }
-.bookingForm_hotel{
+.ak-bookingForm_hotel{
 	font-size: 20px;
-	letter-spacing: 2px;
-	line-height: 26px;		
+	line-height: 37px;		
 	font-family: "Josefin Sans";
+	text-transform: uppercase;
 }
 .ak-bookingForm_deskr{
 	font-size: 15px;
-	letter-spacing: 2px;
-	line-height: 26px;		
+	line-height: 25px;	
 	font-family: "Josefin Sans";
+	margin-bottom: 10%;
 }
 .ak-section:nth-child(5){
 	margin-top: 2%;
 	padding: 10% 0;
 	background: url("../img/men.jpg") no-repeat center center ;
 	text-align: center;	
+	position: relative;
 }
 .ak-story{
 	width: 70%;
@@ -242,8 +270,32 @@ input[type="button"]{
 	font-family: "Font Awesome";
 }
 .ak-footer{
-	padding: 3% 30%;
+	padding: 3% 41%;
 	background-color: #232323;
 	text-align: center;
+	font-size: 0px;
+}
 
+.ak-footer_title{
+	font-size: 24px;
+	letter-spacing: 3px;
+	line-height: 26px;
+	font-family: "Josefin Sans";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.ak-footer_deskr{
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	font-family: "Josefin Sans";
+}
+.ak-footer_social{
+	
+	width: 20%;
+	font-size: 20px;	
+}
+
+.ak-footer_social:hover{
+	color: #4d69e0;
 }
